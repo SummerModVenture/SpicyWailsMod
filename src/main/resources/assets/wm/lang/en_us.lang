@@ -1,0 +1,17 @@
+//Items
+item.onit_essence.name=Onit Essence
+item.onit_shard.name=Onit Shard
+item.onit_ingot.name=Onit Ingot
+item.spicy_onit_fuel.name=Spicy Onit Fuel
+
+//Blocks
+tile.onit_block.name=Onit Block
+tile.advanced_brewing_stand.name=Advanced Brewing Stand
+container.advanced_brewing_stand=Advanced Brewing Stand
+tile.onit_ore.name=Onit Ore
+
+//Tools
+item.meme_blade.name=Meme Blade
+
+//Entities
+entity.brewer.name=Disciple of Brewer

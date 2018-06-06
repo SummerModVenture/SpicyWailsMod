@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " M ",
+        " M ",
+        " S "
+    ],
+    
+    "key":
+    {
+        "M":
+        {
+            "item": "wm:onit_essence"
+        },
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "wm:meme_blade",
+        "count": 1
+    }
+}

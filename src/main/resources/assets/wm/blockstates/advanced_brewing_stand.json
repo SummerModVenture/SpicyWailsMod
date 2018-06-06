@@ -1,0 +1,13 @@
+{
+    "variants": 
+    {
+        "active=false,facing=north": { "model": "wm:advanced_brewing_stand" },
+        "active=false,facing=east": { "model": "wm:advanced_brewing_stand", "y": 90 },
+        "active=false,facing=south": { "model": "wm:advanced_brewing_stand", "y": 180 },
+        "active=false,facing=west": { "model": "wm:advanced_brewing_stand", "y": 270 },
+        "active=true,facing=north": { "model": "wm:active_advanced_brewing_stand" },
+        "active=true,facing=east": { "model": "wm:active_advanced_brewing_stand", "y": 90 },
+        "active=true,facing=south": { "model": "wm:active_advanced_brewing_stand", "y": 180 },
+        "active=true,facing=west": { "model": "wm:active_advanced_brewing_stand", "y":270  }
+    }
+}
