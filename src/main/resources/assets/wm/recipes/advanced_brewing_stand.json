@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#S#",
+    "SBS",
+    "#S#"
+  ],
+  "key": {
+    "#": {
+      "item": "wm:onit_shard"
+    },
+    "S": {
+      "item": "wm:onit_essence"
+    },
+    "B": {
+      "item": "minecraft:brewing_stand"
+    }
+  },
+  "result": {
+    "item": "wm:advanced_brewing_stand",
+    "count": 1
+  }
+}
