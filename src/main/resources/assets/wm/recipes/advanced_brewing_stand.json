@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#S#",
+    "#D#",
     "SBS",
     "#S#"
   ],
@@ -11,6 +11,9 @@
     },
     "S": {
       "item": "wm:onit_essence"
+    },
+    "D": {
+      "item": "minecraft:emerald"
     },
     "B": {
       "item": "minecraft:brewing_stand"

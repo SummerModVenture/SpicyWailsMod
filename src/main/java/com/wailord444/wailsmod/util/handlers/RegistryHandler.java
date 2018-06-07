@@ -6,6 +6,7 @@ import com.wailord444.wailsmod.init.ModEntities;
 import com.wailord444.wailsmod.init.ModItems;
 import com.wailord444.wailsmod.util.IHasModel;
 
+import com.wailord444.wailsmod.world.gen.WorldGenCustomOres;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
@@ -55,7 +56,7 @@ public class RegistryHandler
 	
 	public static void preInitRegistries()
 	{
-		
+		GameRegistry.registerWorldGenerator(new WorldGenCustomOres(), 0);
 		ModEntities.registerEntities();
 		RenderHandler.registerEntityRenders();
 	}
