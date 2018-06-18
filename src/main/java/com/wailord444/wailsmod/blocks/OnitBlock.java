@@ -12,7 +12,7 @@ public class OnitBlock extends BlockBase
 		setHardness(2.0F);
 		setResistance(30.0F);
 		setHarvestLevel("pickaxe",2);
-		setLightLevel(10.0F);
+		setLightLevel(50.0F);
 		//setLightOpacity();
 		//setBlockUnbreakable();
 	}

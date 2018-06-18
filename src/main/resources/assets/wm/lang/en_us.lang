@@ -12,6 +12,11 @@ tile.onit_ore.name=Onit Ore
 
 //Tools
 item.meme_blade.name=Meme Blade
+item.onit_sword.name=Onit Sword
+item.onit_axe.name=Onit Axe
+item.onit_pickaxe.name=Onit Pickaxe
+item.onit_spade.name=Onit Spade
+item.onit_hoe.name=Onit Hoe
 
 //Entities
 entity.brewer.name=Disciple of Brewer

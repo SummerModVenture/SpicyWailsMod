@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "MM ",
+    " S ",
+    " S "
+  ],
+
+  "key":
+  {
+    "M":
+    {
+      "item": "wm:onit_ingot"
+    },
+    "S":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+
+  "result":
+  {
+    "item": "wm:onit_hoe",
+    "count": 1
+  }
+}
