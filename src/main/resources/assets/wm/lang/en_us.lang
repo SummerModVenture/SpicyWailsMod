@@ -3,12 +3,14 @@ item.onit_essence.name=Onit Essence
 item.onit_shard.name=Onit Shard
 item.onit_ingot.name=Onit Ingot
 item.spicy_onit_fuel.name=Spicy Onit Fuel
+item.lazorite_fragment.name=Lazorite Fragment
 
 //Blocks
 tile.onit_block.name=Onit Block
 tile.advanced_brewing_stand.name=Advanced Brewing Stand
 container.advanced_brewing_stand=Advanced Brewing Stand
 tile.onit_ore.name=Onit Ore
+tile.lazorite.name=Lazorite
 
 //Tools
 item.meme_blade.name=Meme Blade
@@ -17,6 +19,8 @@ item.onit_axe.name=Onit Axe
 item.onit_pickaxe.name=Onit Pickaxe
 item.onit_spade.name=Onit Spade
 item.onit_hoe.name=Onit Hoe
+item.lazorite_drill.name=Lazorite Drill
+
 
 //Entities
 entity.brewer.name=Disciple of Brewer

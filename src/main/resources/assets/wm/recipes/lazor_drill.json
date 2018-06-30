@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "LL ",
+    "LS ",
+    "  T"
+  ],
+
+  "key":
+  {
+    "L":
+    {
+      "item": "wm:lazorite_fragment"
+    },
+    "T":
+    {
+      "item": "minecraft:stick"
+    },
+    "S":
+    {
+      "item": "wm:onit_pickaxe"
+    }
+  },
+
+  "result":
+  {
+    "item": "wm:lazor_drill",
+    "count": 1
+  }
+}

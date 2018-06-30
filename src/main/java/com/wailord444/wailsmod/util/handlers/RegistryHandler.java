@@ -7,6 +7,7 @@ import com.wailord444.wailsmod.init.ModItems;
 import com.wailord444.wailsmod.util.IHasModel;
 
 import com.wailord444.wailsmod.world.gen.WorldGenCustomOres;
+import com.wailord444.wailsmod.world.gen.WorldGenCustomStructures;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
@@ -14,6 +15,7 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.network.NetworkRegistry;
+import net.minecraftforge.fml.common.registry.EntityRegistry;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @EventBusSubscriber
@@ -57,6 +59,8 @@ public class RegistryHandler
 	public static void preInitRegistries()
 	{
 		GameRegistry.registerWorldGenerator(new WorldGenCustomOres(), 0);
+		GameRegistry.registerWorldGenerator(new WorldGenCustomStructures(), 0);
+
 		ModEntities.registerEntities();
 		RenderHandler.registerEntityRenders();
 	}

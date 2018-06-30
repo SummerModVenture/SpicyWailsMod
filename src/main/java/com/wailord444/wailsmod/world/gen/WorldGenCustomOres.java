@@ -17,10 +17,14 @@ import java.util.Random;
 public class WorldGenCustomOres implements IWorldGenerator
 {
     private WorldGenerator onit_ore;
+    private WorldGenerator lazorite;
+    private WorldGenerator n_lazorite;
 
     public WorldGenCustomOres()
     {
         onit_ore = new WorldGenMinable(ModBlocks.ONIT_ORE.getDefaultState(), 8, BlockMatcher.forBlock(Blocks.STONE));
+        lazorite = new WorldGenMinable(ModBlocks.LAZORITE.getDefaultState(), 3, BlockMatcher.forBlock(Blocks.STONE));
+        n_lazorite = new WorldGenMinable(ModBlocks.NETHER_LAZORITE.getDefaultState(), 3, BlockMatcher.forBlock(Blocks.NETHERRACK));
     }
 
     @Override
@@ -30,12 +34,13 @@ public class WorldGenCustomOres implements IWorldGenerator
         {
             case -1:
                 //nether
+                runGenerator(n_lazorite, world, random, chunkX, chunkZ, 5, 0, 100);
                 break;
 
             case 0:
                 //overworld
                 runGenerator(onit_ore, world, random, chunkX, chunkZ, 3, 5, 25);
-
+                runGenerator(lazorite, world, random, chunkX, chunkZ, 1, 5, 20);
                 break;
 
             case 1:
