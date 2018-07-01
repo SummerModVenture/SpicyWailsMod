@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " M ",
+        "MPM",
+        " M "
+    ],
+    
+    "key":
+    {
+        "M":
+        {
+            "item": "wailsmod:onit_essence"
+        },
+        "P":
+        {
+            "item": "minecraft:glowstone"
+        }
+    },
+    
+    "result":
+    {
+        "item": "wailsmod:onit_block",
+        "count": 2
+    }
+}

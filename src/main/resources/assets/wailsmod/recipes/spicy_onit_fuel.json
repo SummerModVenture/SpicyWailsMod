@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "wailsmod:onit_shard"
+        },
+        {
+            "item": "wailsmod:onit_shard"
+        },
+        {
+            "item": "wailsmod:onit_shard"
+        },
+        {
+            "item": "wailsmod:onit_shard"
+        },
+        {
+            "item": "minecraft:coal_block"
+        },
+        {
+            "item": "wailsmod:onit_shard"
+        },
+        {
+            "item": "wailsmod:onit_shard"
+        },
+        {
+            "item": "wailsmod:onit_shard"
+        },
+        {
+            "item": "wailsmod:onit_shard"
+        }
+    ],
+    "result": {
+        "item": "wailsmod:spicy_onit_fuel",
+        "count": 4
+    }
+}

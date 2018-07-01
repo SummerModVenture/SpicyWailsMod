@@ -1,0 +1,13 @@
+{
+    "variants": 
+    {
+        "active=false,facing=north": { "model": "wailsmod:advanced_brewing_stand" },
+        "active=false,facing=east": { "model": "wailsmod:advanced_brewing_stand", "y": 90 },
+        "active=false,facing=south": { "model": "wailsmod:advanced_brewing_stand", "y": 180 },
+        "active=false,facing=west": { "model": "wailsmod:advanced_brewing_stand", "y": 270 },
+        "active=true,facing=north": { "model": "wailsmod:active_advanced_brewing_stand" },
+        "active=true,facing=east": { "model": "wailsmod:active_advanced_brewing_stand", "y": 90 },
+        "active=true,facing=south": { "model": "wailsmod:active_advanced_brewing_stand", "y": 180 },
+        "active=true,facing=west": { "model": "wailsmod:active_advanced_brewing_stand", "y":270  }
+    }
+}

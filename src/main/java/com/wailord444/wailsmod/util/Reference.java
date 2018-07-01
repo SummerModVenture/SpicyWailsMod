@@ -2,7 +2,7 @@ package com.wailord444.wailsmod.util;
 
 public class Reference 
 {
-	public static final String MOD_ID = "wm";
+	public static final String MOD_ID = "wailsmod";
 	public static final String NAME = "Wail's Mod";
 	public static final String VERSION = "4.20";
 	public static final String ACCEPTED_VERSIONS = "[1.12.2]";

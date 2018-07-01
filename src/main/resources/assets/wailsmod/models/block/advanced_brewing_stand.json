@@ -1,0 +1,12 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "particle": "wailsmod:blocks/abs_front_off",
+        "up": "wailsmod:blocks/abs_base",
+        "down": "wailsmod:blocks/abs_front_off",
+        "north": "wailsmod:blocks/abs_front_off",
+        "east": "wailsmod:blocks/abs_base",
+        "south": "wailsmod:blocks/abs_base",
+        "west": "wailsmod:blocks/abs_base"
+    }
+}

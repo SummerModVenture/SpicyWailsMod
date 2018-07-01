@@ -10,7 +10,7 @@ import net.minecraft.util.ResourceLocation;
 
 public class RenderBrewer extends RenderLiving<EntityBrewer>
 {
-	public static final ResourceLocation TEXTURES = new ResourceLocation("wm:textures/entity/brewer.png");
+	public static final ResourceLocation TEXTURES = new ResourceLocation("wailsmod:textures/entity/brewer.png");
 	
 	public RenderBrewer(RenderManager manager) 
 	{

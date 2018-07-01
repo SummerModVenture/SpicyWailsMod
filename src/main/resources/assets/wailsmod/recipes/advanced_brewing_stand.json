@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#D#",
+    "SBS",
+    "#S#"
+  ],
+  "key": {
+    "#": {
+      "item": "wailsmod:onit_shard"
+    },
+    "S": {
+      "item": "wailsmod:onit_essence"
+    },
+    "D": {
+      "item": "minecraft:emerald"
+    },
+    "B": {
+      "item": "minecraft:brewing_stand"
+    }
+  },
+  "result": {
+    "item": "wailsmod:advanced_brewing_stand",
+    "count": 1
+  }
+}

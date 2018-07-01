@@ -298,7 +298,7 @@ public class TileEntityAdvancedBrewingStand extends TileEntity implements IInven
 	
 	public String getGuiID() 
 	{
-		return "wm:advanced_brewing_stand";
+		return "wailsmod:advanced_brewing_stand";
 	}
 
 	@Override

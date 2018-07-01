@@ -34,7 +34,7 @@ public class WorldGenCustomOres implements IWorldGenerator
         {
             case -1:
                 //nether
-                runGenerator(n_lazorite, world, random, chunkX, chunkZ, 5, 0, 100);
+                runGenerator(n_lazorite, world, random, chunkX, chunkZ, 10, 0, 100);
                 break;
 
             case 0:

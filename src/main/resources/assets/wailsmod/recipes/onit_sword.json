@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "M",
+    "M",
+    "S"
+  ],
+
+  "key":
+  {
+    "M":
+    {
+      "item": "wailsmod:onit_ingot"
+    },
+    "S":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+
+  "result":
+  {
+    "item": "wailsmod:onit_sword",
+    "count": 1
+  }
+}
