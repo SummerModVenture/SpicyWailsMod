@@ -11,6 +11,7 @@ tile.advanced_brewing_stand.name=Advanced Brewing Stand
 container.advanced_brewing_stand=Advanced Brewing Stand
 tile.onit_ore.name=Onit Ore
 tile.lazorite.name=Lazorite
+tile.nether_lazorite.name=Nether Lazorite
 
 //Tools
 item.meme_blade.name=Meme Blade
