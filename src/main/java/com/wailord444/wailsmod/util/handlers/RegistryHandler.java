@@ -54,6 +54,7 @@ public class RegistryHandler
 	public static void initRegistries()
 	{
 		NetworkRegistry.INSTANCE.registerGuiHandler(Main.instance, new GuiHandler());
+		SoundsHandler.registerSounds();
 	}
 	
 	public static void preInitRegistries()

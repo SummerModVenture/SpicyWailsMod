@@ -33,7 +33,8 @@ public class Main
 	@EventHandler
 	public static void init(FMLInitializationEvent event)
 	{
-		ModRecipes.init(); 
+		ModRecipes.init();
+		RegistryHandler.initRegistries();
 		NetworkRegistry.INSTANCE.registerGuiHandler(Main.instance, new GuiHandler());
 	}
 	

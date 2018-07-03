@@ -2,6 +2,7 @@ package com.wailord444.wailsmod.entity;
 
 import com.wailord444.wailsmod.util.handlers.LootTableHandler;
 
+import com.wailord444.wailsmod.util.handlers.SoundsHandler;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.monster.EntityZombie;
 import net.minecraft.nbt.NBTTagCompound;
@@ -37,18 +38,18 @@ public class EntityBrewer extends EntityZombie
 	@Override
 	protected SoundEvent getAmbientSound() 
 	{
-		return super.getAmbientSound();
+		return SoundsHandler.ONIT;
 	}
 	
 	@Override
 	protected SoundEvent getHurtSound(DamageSource damageSourceIn) 
 	{
-		return super.getHurtSound(damageSourceIn);
+		return SoundsHandler.GOTEM_ONIT;
 	}
 	
 	@Override
 	protected SoundEvent getDeathSound() 
 	{
-		return super.getDeathSound();
+		return SoundsHandler.LONG_ONIT;
 	}
 }

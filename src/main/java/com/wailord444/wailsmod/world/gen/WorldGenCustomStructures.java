@@ -37,7 +37,7 @@ public class WorldGenCustomStructures implements IWorldGenerator
                 break;
 
             case 0:
-             //overworld, HIGHER CHANCE=LOWER SPAWN
+             //overworld, HIGHER CHANCE=LOWER SPAWN (40 = 1 in 40 chance)
                 generateStructure(GOTEM_HUT, world, random, chunkX, chunkZ, 20, Blocks.SAND, BiomeDesert.class);
                 generateStructure(GOTEM_HUT, world, random, chunkX, chunkZ, 40, Blocks.GRASS, BiomeForest.class);
                 break;

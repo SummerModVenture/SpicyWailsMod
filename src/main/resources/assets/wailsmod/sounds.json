@@ -1,0 +1,20 @@
+{
+  "entity.brewer.ambient":
+  {
+    "category": "entity",
+    "subtitle": "entity.brewer.ambient",
+    "sounds": [{"name": "wailsmod:entity/brewer/onit", "stream": true }]
+  },
+  "entity.brewer.hurt":
+  {
+    "category": "entity",
+    "subtitle": "entity.brewer.hurt",
+    "sounds": [{"name": "wailsmod:entity/brewer/gotemonit", "stream": true }]
+  },
+  "entity.brewer.death":
+  {
+    "category": "entity",
+    "subtitle": "entity.brewer.death",
+    "sounds": [{"name": "wailsmod:entity/brewer/longonit", "stream": true }]
+  }
+}
