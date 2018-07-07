@@ -22,6 +22,8 @@ item.onit_spade.name=Onit Spade
 item.onit_hoe.name=Onit Hoe
 item.lazor_drill.name=Lazor Drill
 
+//Armor
+item.mmga_hat.name=A Familiar Hat...
 
 //Entities
 entity.brewer.name=Disciple of Brewer
